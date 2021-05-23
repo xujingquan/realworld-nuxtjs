@@ -53,11 +53,11 @@ module.exports = {
       );
     },
   },
-  server: {
-    //设置成这个就可以监听所有的网卡地址,外网就可以访问
-    host: "0.0.0.0",
-    port: 3000,
-  },
+  // server: {
+  //   //设置成这个就可以监听所有的网卡地址,外网就可以访问
+  //   host: "0.0.0.0",
+  //   port: 3000,
+  // },
   //注册插件
   plugins: ["~/plugins/request.js", "~/plugins/dayjs.js"],
 };
