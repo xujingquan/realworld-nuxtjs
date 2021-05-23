@@ -50,7 +50,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
           script: |
             cd /root/realworld-nuxtjs
             wget https://github.com/xujingquan/realworld-nuxtjs/releases/latest/download/release.tgz -O release.tgz
